@@ -1,0 +1,170 @@
+.JanelaWhatsAberta{
+     border-width:3px !important;
+     width:278px;
+     background-color:#15AC95 !important;
+     animation-iteration-count:infinite;
+     animation-fill-mode:both;
+     height:37px;
+     bottom:14px;
+     z-index:99999999;
+     margin-left:18px;
+     border-bottom-left-radius:19px;
+     border-bottom-right-radius:19px;
+     border-top-right-radius:19px;
+     border-top-left-radius:19px;
+}
+.JanelaWhatsAberta.yp_onscreen{
+     animation-duration:1s;
+     animation-name:pulse;
+     animation-delay:0s;
+}
+ .WhatsCel .Whatsclose{
+     background-color:#15AC95 !important;
+     border-bottom-left-radius:0px;
+     border-bottom-right-radius:0px;
+     border-top-right-radius:0px;
+     border-top-left-radius:0px;
+}
+.WhatsCel{
+     border-top-left-radius:0px;
+     border-bottom-left-radius:0px;
+     border-bottom-right-radius:0px;
+     border-top-right-radius:0px;
+}
+.JanelaWhatsAberta{
+     margin:15px;
+     display: block;
+     width: 22px;
+     height: 22px;
+     border-radius: 19%;
+     background: #transparent;
+     cursor: pointer;
+     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+     animation: pulse 2s infinite;
+}
+ .JanelaWhatsAberta:hover {
+     animation: none;
+}
+ @-webkit-keyframes pulse {
+     0% {
+         -webkit-box-shadow: 0 0 0 0 rgba(255,0,0,0.3);
+    }
+     70% {
+         -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+     100% {
+         -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+ @keyframes pulse {
+     10% {
+         -moz-box-shadow: 0 0 0 0 #15AC95;
+         box-shadow: 0 0 0 0 #15AC95;
+    }
+     80% {
+         -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+         box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+    }
+     100% {
+         -moz-box-shadow: 0 0 0 0 rgba(255,0,0,0.3);
+         box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+.JanelaWhatsAberta{
+     border-width:3px !important;
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     border-bottom-right-radius:10px;
+     border-bottom-left-radius:10px;
+     margin-left:18px;
+     z-index:99999999;
+     bottom:-5px;
+     height:37px;
+     animation-fill-mode:both;
+     animation-iteration-count:infinite;
+     background-color:#15AC95 !important;
+     width:250px;
+}
+.JanelaWhatsAberta.yp_onscreen{
+     animation-duration:1s;
+     animation-delay:0s;
+     animation-name:bob;
+}
+ .WhatsCel .Whatsclose{
+     background-color:#15AC95 !important;
+     border-top-left-radius:0px;
+     border-top-right-radius:0px;
+     border-bottom-right-radius:0px;
+     border-bottom-left-radius:0px;
+}
+.WhatsCel{
+     border-top-left-radius:0px;
+     border-top-right-radius:0px;
+     border-bottom-right-radius:0px;
+     border-bottom-left-radius:0px;
+}
+ .btn-toggle{
+     display: none;
+}
+ .btn2-toggle{
+     display: none;
+}
+ @media screen and (max-width: 580px) {
+     #Msg{
+         display: none;
+    }
+     .btn-toggle{
+         display: block;
+    }
+}
+ @media screen and (min-width: 580px) {
+     #Msg2{
+         display: none;
+    }
+     .btn-toggle{
+         display: block;
+    }
+}
+ #popcompany{
+     display:none;
+     position:fixed;
+     bottom: 0;
+     right: 0px;
+     margin-right: 10px;
+     z-index: 9999999999;
+     background-image:url(../img/whats_bg.jpg);
+     width:280px;
+     height:385x;
+}
+ .JanelaWhatsAberta {
+     background-image:url(../img/banner.png);
+     background-color:#15AC95;
+     position: fixed;
+     bottom: 0px;
+     right: 0px;
+     z-index: 99999;
+     width:280px;
+     height:35px;
+     margin-right:10px;
+}
+ .WhatsIframe {
+     margin-left: 0px;
+     margin-top: 35px;
+     width: 280px;
+     height: 350px;
+     overflow: hidden;
+     border-width: 0px;
+}
+ .WhatsCel .Whatsclose {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     transition: all 200ms;
+     font-size: 12px;
+     font-family: Verdana, Sans-Serif;
+     text-decoration: none;
+     background-image:url(../img/fechar.png);
+     background-color:#15AC95;
+     width:280px;
+     height:35px;
+}
